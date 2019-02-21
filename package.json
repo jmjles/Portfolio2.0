@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_2.0_live",
+  "version": "1.0.0",
+  "description": "My portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Jesus Morales Jr",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^3.4.0",
+    "body-parser": "^1.18.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "nodemon": "^1.18.9"
+  }
+}
