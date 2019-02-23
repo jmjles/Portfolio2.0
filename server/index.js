@@ -9,7 +9,7 @@ app.use(cors());
 
 
 // Api Location
-const port = '5000';
+const port = process.env.PORT || 5000;
 const clicker = require('./routes/api/clicker-game.js');
 app.use('/api/clicker-game', clicker);
 
