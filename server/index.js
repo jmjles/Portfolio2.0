@@ -13,6 +13,9 @@ const port = '5000';
 const clicker = require('./routes/api/clicker-game.js');
 app.use('/api/clicker-game', clicker);
 
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static(__dirname + '/public/'));
+}
 // Launch Server
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
