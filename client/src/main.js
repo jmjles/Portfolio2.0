@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Jquery from 'jquery'
 
 //Defining Routes
 import Home from './Home.vue'
@@ -15,7 +16,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 Vue.config.productionTip = false
-
 //Establishing Routes
 Vue.use(VueRouter)
 const routes = [

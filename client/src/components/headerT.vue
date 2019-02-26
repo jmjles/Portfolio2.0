@@ -1,10 +1,15 @@
 <template>
-    <div>
-        <nav class="nav nav-tabs sticky-top">
-            <router-link to="/" class="nav-item nav-link">Home</router-link>
-            <router-link to="/About" class="nav-item nav-link">About Me</router-link>
-            <router-link to="/Projects" class="nav-item nav-link">Projects</router-link>
+    <div class="container">
+        <nav class="nav nav-tabs sticky-top row">
+            <span class="navbar-brand text-secondary col-sm">
+                Jesus M. |
+                Full Stack Web Dev
+            </span>
+                <router-link to="/" class="nav-item nav-link text-white col-sm text-center">Home</router-link>
+                <router-link to="/About" class="nav-item nav-link text-white col-sm text-center">About Me</router-link>
+                <router-link to="/Projects" class="nav-item nav-link text-white col-sm text-center">Projects</router-link>
         </nav>
+        <noscript><lead>This site uses Javascript. Please enable it..</lead></noscript>
         <video autoplay loop muted id="vid">
             <source src="../assets/etc/stars.mp4"/>
         </video>

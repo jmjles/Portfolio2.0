@@ -5,12 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "express": "^4.16.4",
+    "google-maps": "^3.3.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "serve-static": "^1.13.2",

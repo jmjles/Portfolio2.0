@@ -2,6 +2,9 @@
     <div>
         <headerT/>
         <article class="container">
+          <h1 class="display-3 text-center">Working for a Better Tomorrow</h1>
+          <hr>
+          <br>
             <p>
                 I have always dreamt of being a Developer.
                 <br>
@@ -14,7 +17,6 @@
         <footerT/>
     </div>
 </template>
-
 <script>
 import headerT from './components/headerT.vue'
 import footerT from './components/footerT.vue'
@@ -33,5 +35,8 @@ article {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 20px;
+}
+hr{
+    border-color: white;
 }
 </style>

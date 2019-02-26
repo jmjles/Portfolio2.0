@@ -5,8 +5,9 @@
             <div class="row">
                 <div v-for="{name , Description, link} in projects" :key="name" class="col-sm">
                     <div>
-                        <h2> {{ name }}</h2>
+                        <h2 class="text-center"> {{ name }}</h2>
                         <p>{{ Description }}</p>
+                        <br>
                         <router-link :to="link" class="btn-secondary btn">Try Me</router-link>
                     </div>
                 </div>
